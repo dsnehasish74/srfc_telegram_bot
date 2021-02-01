@@ -1,11 +1,11 @@
-// const { Telegraf } = require('telegraf')
-const { Composer } = require('micro-bot')
+const { Telegraf } = require('telegraf')
+// const { Composer } = require('micro-bot')
 const https = require("https");
 
 require('dotenv').config();
 
-// const bot = new Telegraf(process.env.BOT_TOKEN)
-const bot = new Composer
+const bot = new Telegraf(process.env.BOT_TOKEN)
+// const bot = new Composer
 
 // start command for our bot
 bot.start((ctx) => ctx.reply(`Welcome ${ctx.message.from.first_name} ! nice to see you`));
@@ -84,6 +84,6 @@ bot.command('weather', (ctx) => {
 });
 
 
-module.exports = bot
+// module.exports = bot
 
-// bot.launch()
+bot.launch()
