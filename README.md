@@ -2,6 +2,9 @@
 
 ![srfc_telegram_bot](https://socialify.git.ci/dsnehasish74/srfc_telegram_bot/image?forks=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
 
+## Demo
+![Demo](https://github.com/dsnehasish74/srfc_telegram_bot/blob/main/demo/demo.mp4)
+
 ## description
  Basic telegram bot which can perform the basic comands like /start /help /welcome and also check for weather details of any place eg: /weather kolkata
 
